@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MakeableDrugBase">
+    <defName>Ritalin</defName>
+    <label>ritalin</label>
+    <description>A drug used to wake patients from anesthetic. Overuse may cause brain damage.</description>
+    <graphicData>
+      <texPath>Things/Drugs/Ritalin</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.80</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>150</WorkToMake>
+      <MarketValue>3</MarketValue>
+      <Mass>0.02</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <minRewardCount>10</minRewardCount>
+    <ingestible>
+      <foodType>Processed</foodType>
+      <drugCategory>Medical</drugCategory>
+      <baseIngestTicks>70</baseIngestTicks>
+      <ingestSound>Ingest_Snort</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.21,0,0.05)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Take {0}</ingestCommandString>
+      <ingestReportString>Taking {0}.</ingestReportString>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <MedicineIndustrial>1</MedicineIndustrial>
+    </costList>
+    <comps>
+      <li Class="Surgery.HediffCompProperties_WakeAnesthetic">
+       </li>
+    </comps>
+  </ThingDef>
+
+  
+  
+</Defs>

@@ -1,0 +1,3 @@
+E:\RimWorld\Mods\Surgery\1.1\Assemblies\Surgery.dll
+E:\RW Mods\Surgery\Surgery\obj\Debug\Surgery.csprojResolveAssemblyReference.cache
+E:\RW Mods\Surgery\Surgery\obj\Debug\Surgery.dll
