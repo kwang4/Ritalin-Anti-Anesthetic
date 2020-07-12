@@ -1,3 +1,0 @@
-C:\Users\Kai\Desktop\Games\RimWorld.v1.0.2282\Mods\Surgery\Assemblies\Surgery.dll
-C:\Users\Kai\Desktop\Games\RimWorld.v1.0.2282\Mods\Surgery\Source\Surgery\Surgery\obj\Debug\Surgery.dll
-C:\Users\Kai\Desktop\Games\RimWorld.v1.0.2282\Mods\Surgery\Source\Surgery\Surgery\obj\Debug\Surgery.csprojResolveAssemblyReference.cache
